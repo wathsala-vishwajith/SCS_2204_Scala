@@ -30,4 +30,4 @@ def wholeCost(dPrice: Double, count: Int): Double = {
 }
 
 println("Wholesale Cost1:" + wholeCost(discountPrice, 1))
-println("Wholesale Cost1:" + wholeCost(discountPrice, 51))
+println("Wholesale Cost1:" + wholeCost(discountPrice, 60))
