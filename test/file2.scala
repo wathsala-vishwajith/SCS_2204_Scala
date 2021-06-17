@@ -41,3 +41,30 @@ if a != 3; if a < 8
 for( a <- retVal){ 
 println( "Value of a: " + a ); 
 } 
+
+
+//breaks
+// import following package 
+import scala.util.control._ 
+// create a Breaks object as follows 
+val loop = new Breaks; 
+// Keep the loop inside breakable as follows 
+
+var a = 0; 
+val numList = List(1,2,3,4,5,6,7,8,9,10); 
+// for loop execution with a yield 
+var retVal = for{ a <- numList 
+if a != 3; if a < 8 
+}yield a //adds the a to the retVal
+// Now print returned values using another loop. 
+loop.breakable{ 
+// Loop will go here 
+for( a <- retVal){ 
+if(a  == 5){
+  loop.break;
+}
+println( "Value of a: " + a ); 
+}
+} 
+ 
+//breaks
