@@ -1,8 +1,8 @@
-
-object q1 extends App{
-  val r1 = new Rational(1,5)
-  r1.neg.print
-}
+//
+//object q1 extends App{
+//  val r1 = new Rational(1,5)
+//  r1.neg.print
+//}
 
 //class Rational(x:Int,y:Int){
 //  private def numer = x

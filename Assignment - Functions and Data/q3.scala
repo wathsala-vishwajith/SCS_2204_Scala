@@ -16,7 +16,7 @@
 //  val accid:Int  = id
 //  var accbalance = balance
 //  var accinterest= interest
-//
+
 //  def deposit(amount:Double): Unit ={
 //    this.accbalance += amount
 //  }
@@ -29,7 +29,7 @@
 //  }
 //  def trasfer(acc:Account,amount:Double): Unit ={
 //    acc.deposit(this.withdraw(amount))
-//  }
+// }
 //  def print = println("id:" +accid + " balance:" + accbalance + " interest:"+ accinterest)
 //}
 

@@ -1,4 +1,8 @@
 object q2 extends App{
+
+  val r1 = new Rational(1,5)
+  r1.neg.print
+
   def x = new Rational(1,5)
   def y = new Rational(3,40)
   def z = new Rational(2,15)
